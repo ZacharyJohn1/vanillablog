@@ -3,13 +3,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
-  background-color: #fff;
+  background-color: rgb(46, 46, 55);
   height: 100%;
 }
+
 nav {
   display: flex;
   height: 60px;
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(0, 0, 0);
   color: white;
   text-align: left;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -29,27 +30,35 @@ nav h1 {
   width: 15%;
   padding: 10px;
   height: 95%;
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(19, 19, 33);
+margin-right: 1px;
 }
+
 .sideNav h1 {
   margin-top: 75px;
   color: white;
   text-decoration: underline;
+  font-size: 25px;
 }
-.sideNav img{
+
+.sideNav img {
   margin-left: 15%;
+  height: 360px;
+  width: 360px;
 }
 
 .sideNav h3 {
   margin-top: 12px;
   color: white;
-  text-decoration: underline;
   left: 0;
+  font-size: small;
+  
 }
+
 footer {
   display: flex;
   height: 60px;
-  background-color: rgb(43, 41, 41);
+  background-color: rgb(0, 0, 0);
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: fixed;
@@ -58,4 +67,12 @@ footer {
   width: 100%;
   text-align: center;
   justify-content: center;
+  border-top-style: ridge;
+}
+
+.main{
+  background-color: wheat;
+  height: 100px;
+  width: 100%;
+  top:0
 }
